@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
@@ -12,7 +12,9 @@
   }
   /*Navbar Starts*/
   header {
-    position: sticky;
+    overflow: visible;
+    z-index: 1000;
+    position: fixed;
     width: 100%;
     background-color: none;
     padding: 1rem 5rem;
@@ -30,7 +32,7 @@
     gap: 2rem;
   }
   nav a {
-    font-family: 'Poppins';
+    font-family: 'Jost';
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
@@ -133,7 +135,7 @@
  }
  .hero-section > .hero-right > p{
   margin-top: 2rem;
-  font-family: 'Poppins';
+  font-family: 'Jost';
   font-size: 1.2rem;
   font-weight: 500;
  }
@@ -144,7 +146,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .know-more{
     background-color: #fff;
-    font-family: 'Poppins';
+    font-family: 'Jost';
     color: #000;
     margin-top: 2rem;
     padding: 0.3rem 0.3rem;
@@ -193,7 +195,7 @@ font-size: 1.7rem;
 /*Features*/
 .text-wrap{
   margin-top: 5rem;
-  font-family: 'Poppins';
+  font-family: 'Jost';
   padding: 0.5rem;
   background-color: #000000;
   color: #ffffff;
@@ -263,7 +265,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 5rem;
-  font-family: 'Poppins';
+  font-family: 'Jost';
   color: #000000;
   margin-right: 10rem;
 }
@@ -273,7 +275,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 .about-us > .aboutleft{
   width: fit-content;
   font-size: 1.2rem;
-  font-family: 'Poppins';
+  font-family: 'Jost';
 }
 @media screen and (max-width: 900px) {
   .about-us{
@@ -286,7 +288,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   .about-us > .aboutleft > h1{
    font-size: 5rem;
     line-height: 6rem;
-    font-family: 'Poppins';
+    font-family: 'Jost';
     margin-right: 0rem;
     margin-left: 1rem;
     text-align: left;
@@ -312,11 +314,11 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .services h1{
   font-size: 3rem;
-  font-family: 'Poppins';
+  font-family: 'Jost';
   margin: 3rem 0;
 }
 .card {
-  font-family: 'Poppins';
+  font-family: 'Jost';
  max-width: max-content;
   height: 100%;
   padding: 2em 1.5em;
@@ -397,7 +399,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	justify-content: center;
 	align-items: center;
 	padding: 30px 8%;
-  font-family: 'Poppins';
+  font-family: 'Jost';
 }
 .container .row{
 	display: flex;
@@ -631,7 +633,7 @@ textarea::-webkit-scrollbar-thumb{
           flex-direction: column;
           gap: 1rem;
           text-align: center;
-          font-family: 'Poppins', cursive;
+          font-family: 'Jost', cursive;
           
       }
       .footer>h1{
