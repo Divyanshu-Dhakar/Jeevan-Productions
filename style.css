@@ -75,7 +75,7 @@
     display: grid;
     place-items: center;
   }
-  h1 {
+  h2 {
     font-size: 4rem;
   }
   #ham-menu {
@@ -139,10 +139,10 @@
     font-family: 'raleway';
     margin-right: 8rem;
  }
- .hero-section > .hero-right > h1{
+ .hero-section > .hero-right > h2{
   font-size: 3rem;
  } 
- .hero-section > .hero-right > h1> .hero-text{
+ .hero-section > .hero-right > h2> .hero-text{
   font-size: 4rem;
   color: #4774fe;
  }
@@ -186,10 +186,10 @@ flex-direction: column;
     margin-right: 0rem;
  }
 
- .hero-section > .hero-right > h1{
+ .hero-section > .hero-right > h2{
   font-size: 3.9rem;
  } 
- .hero-section > .hero-right > h1> .hero-text{
+ .hero-section > .hero-right > h2> .hero-text{
   font-size: 4.9rem;
  }
  .hero-section > .hero-right > p{
@@ -289,7 +289,7 @@ margin-left: 5rem;
 border-radius: 1rem;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.about-us > .aboutleft > h1{
+.about-us > .aboutleft > h2{
   margin-bottom: 1rem;
   font-size: 3.5rem;
   font-weight: 600;
@@ -299,7 +299,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin-right: 10rem;
 }
 
-.about-us > .aboutleft > h1 > span{
+.about-us > .aboutleft > h2 > span{
   color: #4774fe;
 }
 .about-us > .aboutleft{
@@ -341,7 +341,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-left: 1rem;
   }
   
-  .about-us > .aboutleft > h1{
+  .about-us > .aboutleft > h2{
    font-size: 5rem;
     line-height: 6rem;
     font-family: 'Jost';
@@ -362,7 +362,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 }
 
-.portfolio h1{
+.portfolio h2{
   font-size: 3rem;
   font-family: 'Jost';
   font-weight: 600;
@@ -488,7 +488,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   justify-content: center;
   align-items: center;
 }
-.services h1{
+.services h2{
   font-size: 3rem;
   font-family: 'Jost';
   font-weight: 600;
@@ -576,18 +576,18 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
 /*Instagram*/
 
-#instagram h1{
+#instagram h2{
   font-size: 3rem;
   font-family: 'Jost';
   font-weight: 600;
   margin: 3rem 0;
   text-align: center;
 }
-#instagram h1 span{
+#instagram h2 span{
   color: #4774fe;
 }
 /*Testimonial*/
-.testimonial h1{
+.testimonial h2{
   font-size: 3rem;
   font-family: 'Jost';
   font-weight: 600;
@@ -846,7 +846,7 @@ textarea::-webkit-scrollbar-thumb{
           font-family: 'Jost', cursive;
           
       }
-      .footer>h1{
+      .footer>h2{
           font-size: 2rem;
           color: #4774fe;
           margin-bottom: 0.2rem;
@@ -893,7 +893,7 @@ textarea::-webkit-scrollbar-thumb{
         .footer{
           padding-bottom: 3rem;
         }
-          .footer>h1{
+          .footer>h2{
               font-size: 2rem;
           }
           .footerbottom{
