@@ -508,9 +508,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   cursor: pointer;
   transition: 0.5s;
 }
-.card:hover{
-  scale: 1.05;
-}
+
 .card h3 {
   font-size: 22px;
   font-weight: 600;
@@ -560,9 +558,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     
 }
 @media screen and (max-width: 900px) {
-  .card:hover{
-    scale: 0.5;
-  }
+
   .service-cards{
     margin: 0rem 1rem;
       display: grid;
